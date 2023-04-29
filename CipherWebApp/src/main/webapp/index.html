@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JIIAMD LAB PROJECT</title>
+    </head>
+    <body bgcolor=#008080>
+        <center>
+        <h1 style="background-color:powderblue">ADFGVX CIPHER</h1>
+      
+        <form action="Cipher" method="GET" style = "display: flex; flex-direction: column ;align-items: center">
+            <div style = "display: flex; align-items: end; justify-content: center; flex-direction: column; margin: auto" >
+            <p>Key for matrix:  <input type=text size=20 name=keyMatrix></p>
+            <p>Key for columns: <input type=text size=20 name=keyColumns></p>
+            <p>Message:         <input type=text size=20 name=message></p>
+            </div>
+            <p>Please select decryption or encryption:</p>
+            
+            <div>
+              <input type=radio id=decrypt name=data value=DECRYPT checked>
+              <label for="decrypt">DECRYPT</label><br>
+              <input type=radio id=encrypt name=data value=ENCRYPT>
+              <label for="encrypt">ENCRYPT</label><br>
+            <br>        
+            </div>
+            <button type= "submit" style="width:100px">RUN</button>
+        </form>
+        <hr>   
+        <form action="Forward">
+            <input type=text size=50 name=url value=http://>
+            <input type="submit" value="GO TO PAGE" />
+        </form>
+        <form action="Cookies">
+            <input type="submit" value="HISTORY PAGE VISITS" />
+        </form>
+        <form action="History">
+            <input type="submit" value="SHOW HISTORY PAGE" />
+        </form>
+        <hr>
+    </body>
+</html>
